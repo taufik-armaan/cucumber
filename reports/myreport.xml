@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="5.304" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Login to System" name="Login with valid credentials" time="5.284">
+<system-out><![CDATA[
+Given User Launch the URL "https://www.swiggy.com/".........................passed
+When click SignIn button....................................................passed
+And click on create an account link.........................................passed
+Then User should navigate to Sign Up page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to System" name="Login with invalid credentials" time="0.001">
+<system-out><![CDATA[
+Given User Launch the browser...............................................passed
+When User enters username as "standard_user" and password as "secret_sauce".passed
+And click on Login button...................................................passed
+Then User navigate to My Account page.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
